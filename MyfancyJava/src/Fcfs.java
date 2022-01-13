@@ -23,6 +23,7 @@ public class Fcfs {
         processQueue.add(new Proces(3,1,4,globalTimer));
         processQueue.add(new Proces(4,4,5,globalTimer));
         int total=0;
+        System.out.println("Modified First time");
         while(globalTimer.time < 100){
             // TASK: Write your code here
             if(checkIfNewProcessArrived()==true){
